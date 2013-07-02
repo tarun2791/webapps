@@ -1,0 +1,10 @@
+<web-app>
+	<servlet>
+		<servlet-name>infiniteContent</servlet-name>
+		<servlet-class>com.tarun.demo.InfiniteContentServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>infiniteContent</servlet-name>
+		<url-pattern>/infinitContentServlet</url-pattern>
+	</servlet-mapping>
+</web-app>
