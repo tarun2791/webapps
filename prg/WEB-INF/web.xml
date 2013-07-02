@@ -1,0 +1,20 @@
+<web-app>
+	<servlet>
+		<servlet-name>empServlet</servlet-name>
+		<servlet-class>com.tarunforum.servlets.EmployeeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>empServlet</servlet-name>
+		<url-pattern>/employee.do</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>dispEmpServlet</servlet-name>
+		<servlet-class>com.tarunforum.servlets.DisplayEmployeeServlet</servlet-class>
+	
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>dispEmpServlet</servlet-name>
+		<url-pattern>/displayEmployee.do</url-pattern>
+	</servlet-mapping>
+	
+</web-app>
