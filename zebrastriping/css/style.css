@@ -1,0 +1,60 @@
+td
+{
+	padding: 6px 11px;
+	border-bottom: 1px solid #95bce2;
+	vertical-align: top;
+	
+}
+td *
+{
+	padding : 6px 11px;
+}
+
+tr.alt td
+{
+	background:#ecf6fc;
+}
+
+tr.over td
+{
+	background:#bcd4ec;
+}
+
+thead th
+{
+	background: #ecd3ff;
+}
+
+/* style for div version */
+
+div *
+{
+	padding : 6px 11px;
+}
+#container
+{
+	display: table;
+}
+
+#row
+{
+	display: table-row;
+}
+
+#left, #middle, #right
+{
+	display: table-cell;
+	padding: 6px 11px;
+	border-bottom: 1px solid #95bce2;
+	vertical-align: top;
+}
+
+#row.alt div
+{
+	background:#ecf6fc;
+}
+
+#row.over div
+{
+	background:#bcd4ec;
+}
