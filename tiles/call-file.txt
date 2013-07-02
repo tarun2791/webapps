@@ -1,0 +1,3 @@
+this is a text file that contains the content to test the ajax call
+this is a text file that contains the content to test the ajax call
+
