@@ -1,0 +1,10 @@
+<web-app>
+	<servlet>
+		<servlet-name>checknameservlet</servlet-name>
+		<servlet-class>com.tarunforum.CheckNameServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>checknameservlet</servlet-name>
+		<url-pattern>/register.do</url-pattern>
+	</servlet-mapping>
+</web-app>
