@@ -5,7 +5,7 @@
 
 	<script type="text/javascript">
 
-	window.location="http://localhost:8080/tiles/start.action";
+	window.location="http://localhost:8080/tiles/welcomeLink.action";
 
 </script>
 	</head>

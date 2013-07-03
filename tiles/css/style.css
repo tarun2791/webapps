@@ -59,7 +59,7 @@ background-color: #aa99ff;
 div#footer { 
 /* you must include "div" for IE */ 
 position: relative; 
-width: 100%; 
+width: 80%; 
 height: 80px; 
 background-color: #aa9bff; 
 overflow: hidden; 

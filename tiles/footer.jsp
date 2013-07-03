@@ -8,7 +8,7 @@
 	<body>
 	
 		
-		<div >
+		<div id>
 		This is footer
 		</div>
 	</div>
